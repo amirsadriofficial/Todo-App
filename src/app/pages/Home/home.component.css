@@ -1,0 +1,14 @@
+#showcase {
+  color: #fff;
+  background: #333 url('../../../assets/images/Background/background.jpg') no-repeat center center/cover;
+  padding: 2rem;
+  height: 92.4vh;
+}
+
+#showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}

@@ -1,0 +1,11 @@
+#bg-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 92.4vh;
+}
+
+#tag-404 {
+  font-size: 250px;
+}

@@ -1,0 +1,66 @@
+/* Start About Section */
+#about-text p {
+  font-size: 18px;
+  padding: 0px 40px;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+.underline {
+  width: 20rem;
+  height: 0.2rem;
+  background-color: #000;
+  margin: 1rem auto 2rem;
+}
+/* End About Section */
+
+/* Start Services Section */
+#services .items {
+  display: flex;
+}
+
+#services .items div {
+  flex: 1;
+}
+
+#services .items img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.product-types {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-types:hover {
+  cursor: pointer;
+  background: #f8f9fa;
+}
+
+#services h4 {
+  padding-top: 20px;
+}
+/* End Services Section */
+
+/* Start Founders Section */
+.founder-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.text-color {
+  color: #000;
+}
+
+.founders-hr {
+  border-bottom: 2px solid #000;
+}
+/* End Founders Section */

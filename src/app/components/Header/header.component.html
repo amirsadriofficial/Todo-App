@@ -1,0 +1,20 @@
+<header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a routerLink="/" class="navbar-brand d-flex align-items-center">
+                <strong>Todo App</strong>
+            </a>
+            <ul class="navbar-nav bd-navbar-nav flex-row">
+                <li class="nav-item mr-4">
+                    <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact : true}" routerLink="/">Home</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" routerLinkActive="active" routerLink="/todos">Todos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " routerLinkActive="active" routerLink="/about">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>

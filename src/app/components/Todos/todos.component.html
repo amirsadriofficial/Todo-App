@@ -1,0 +1,9 @@
+<div class="d-flex flex-column align-items-center ">
+    <nav class="col-6 mb-3">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link font-weight-bold for-hover" [ngClass]="{ 'active' : !doneStatus}" id="nav-home-tab" (click)="doneStatus = false">Undone <span class="badge badge-secondary">{{ unDoneTodos.length }}</span></a>
+            <a class="nav-item nav-link font-weight-bold for-hover" [ngClass]="{ 'active' : doneStatus}" id="nav-profile-tab" (click)="doneStatus = true">Done <span class="badge badge-success">{{ doneTodos.length }}</span></a>
+        </div>
+    </nav>
+    <todo *ngFor="let todo of filterTodos" [todoItem]="todo" class="col-6 mb-2"></todo>
+</div>
