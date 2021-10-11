@@ -1,6 +1,6 @@
 import { Injectable, EventEmitter } from '@angular/core';
 import { LogService } from '../log.service';
-import { Todo } from '../shared/Todo.model';
+import { Todo } from '../shared/todo.model';
 
 @Injectable({
   providedIn: 'root'
