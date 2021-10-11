@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { LogService } from 'src/app/log.service';
-import { Todo } from 'src/app/shared/Todo.model';
+import { Todo } from 'src/app/shared/todo.model';
 
 @Component({
   selector: 'todos-list',
